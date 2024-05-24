@@ -18,7 +18,7 @@ if (isLoggedIn && (userRole === 'admin' || (userRole === 'editor' && isApprovedB
 }
 
 
-// Switch statements are designed to compare a single expression against multiple values; setting up this same situation in a switch statement would be more cumbersome. We'd have to use a 'true' switch and put the conditions inside the cases - this makes it less readable and less intuitive.
+// Switch statements are designed to compare a single expression against multiple values; setting up this same situation in a switch statement would be more cumbersome. We'd have to use a 'true' switch and put the conditions inside the cases - this might make it less readable and less intuitive.
 
 const userStatus = {
     isLoggedIn: true,

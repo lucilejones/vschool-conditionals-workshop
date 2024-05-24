@@ -11,7 +11,7 @@ console.log(userStatus); // Outputs: Online
 
 
 
-// compare to simplier ternary
+// compare to simpler ternary
 // let isOnline = true;
 // let userStatus = isOnline ? 'Online' : 'Offline';
 
@@ -47,7 +47,7 @@ console.log(result); // Outputs: Pass
 
 
 
-
+// example with toggle
 // in the HTML we have a button with the id="toggleButton"
 // in the CSS we define two styles
 // .dark-mode {

@@ -3,7 +3,7 @@
 
 
 
-// by default, when a case is matched, the program will execute the corresponding block of cose and then continue to execute the rest of the cases and their blocks, even if those conditions aren't met - this is called fall-through
+// by default, when a case is matched, the program will execute the corresponding block of code and then continue to execute the rest of the cases and their blocks, even if those conditions aren't met - this is called fall-through
 
 // example without 'break'
 let fruit = 'apple';
@@ -22,7 +22,7 @@ switch (fruit) {
 // this will output all the console logs - not what we want
 // change to cherry and show that example too
 
-// the 'break' will termiate the block and exit the switch statement
+// the 'break' will terminate the block and exit the switch statement
 // let fruit = 'apple';
 
 // switch (fruit) {
