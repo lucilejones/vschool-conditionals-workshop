@@ -1,5 +1,7 @@
-// switch statements handle multiple cases and execute different blocks of code based on the value of a variable.
+// switch statements handle multiple cases and execute different blocks of code based on the value of a variable/expression.
 // We're comparing a single expression against multiple values.
+// It will execute statements after the first case clause with a matching vlue until a break statement is encountered.
+
 
 // Imagine we're developing a calendar app that needs to display the name of the day based on a number provided by the user (or other functionality within the app, like the built-in newDate().getDay() method.)
 
@@ -14,6 +16,10 @@
 
 // Copy paste the rest, then add a default.
 // The default is to hanlde any case that doesn't match.
+
+// change the day
+// show an example with a string
+// it uses strict equality comparison
 
 
 

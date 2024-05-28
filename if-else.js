@@ -12,8 +12,13 @@
 // For example, we can assign temperature a value, like 52 or 75.
 
 
+// maybe add two conditions to check 
+// set temp to 70
+// temperature < 80 && temperatue > 70
+
+
 let temperature;
-// temperature = 90;
+// temperature = 65;
 
 if(!temperature) {
     console.log("No temperature reading.")
