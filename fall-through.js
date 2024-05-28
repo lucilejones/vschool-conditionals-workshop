@@ -2,11 +2,16 @@
 // the 'break' statement prevents "fall-through"
 
 
+// by default, after the first time a case is matched, the program will execute the corresponding block of code and then continue to execute the rest of the cases and their blocks, even if those conditions aren't met - this is called fall-through
 
-// by default, when a case is matched, the program will execute the corresponding block of code and then continue to execute the rest of the cases and their blocks, even if those conditions aren't met - this is called fall-through
+// copy paste the code
+// first show with just let fruit;
+// then show 'apple' and then 'cherry'
+
+// If we add in the breaks for each case, that will make sure we exit the switch statement after a match is found.
 
 // example without 'break'
-let fruit = 'apple';
+let fruit = 'cherry';
 
 switch (fruit) {
     case 'apple':
@@ -39,6 +44,7 @@ switch (fruit) {
 //         console.log('Unknown fruit.');
 //         break;
 // }
+
 
 
 

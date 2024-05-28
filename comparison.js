@@ -36,3 +36,11 @@ switch (true) {
     default:
         console.log('Access denied');
 }
+
+// Choice between switch and if/else often comes down to personal or team preference, readability, and specific use cases
+
+// if/else can handle complex conditions and logical expressions
+// switch is often more readable when comparing the same variable to multiple values
+
+// if/else - each condition is evaluated independently and there is no fall-through behavior
+// switch can potentially be more efficient

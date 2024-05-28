@@ -1,5 +1,8 @@
-let isOnline = true;
+// Imagine we're building a simple chat app where users can see each other's status as online or offline. We want to display the correct status based on whether the user is connected to the chat server or not.
+
+
 let userStatus;
+let isOnline = true;
 
 if (isOnline) {
     userStatus = 'Online';
@@ -7,7 +10,13 @@ if (isOnline) {
     userStatus = 'Offline';
 }
 
-console.log(userStatus); // Outputs: Online
+console.log(`User is currently ${userStatus}.`); // Outputs: Online
+
+// The variable 'isOnline' holds a boolean value true or false (get this from other functionality in the app, function, etc)
+// ex. let isOnline = getOnlineStatus();
+// Then the userStatus will get updated to online or offline depending on that variable.
+
+// we can write if(isOnline===true), but we don't need to.
 
 
 
@@ -17,7 +26,8 @@ console.log(userStatus); // Outputs: Online
 
 // console.log(userStatus); // Outputs: Online
 
-
+// The above ternary will assign a value to the variable 'userStatus' based on the value of the 'isOnline' variable
+// the ternary operator (shorthad for an if/else statement) evaulates the condition 'isOnline' - which will evaluate to either true or false
 
 
 
