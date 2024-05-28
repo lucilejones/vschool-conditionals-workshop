@@ -16,18 +16,19 @@ console.log(`User is currently ${userStatus}.`); // Outputs: Online
 // ex. let isOnline = getOnlineStatus();
 // Then the userStatus will get updated to online or offline depending on that variable.
 
-// we can write if(isOnline===true), but we don't need to.
-
-
+// we can write if(isOnline===true) - this will need to be strictly equal to the boolean true
+// if we use if(isOnline) - this will evalute to true if isOnline is a truthy value, if isOnline is a string, or an object, etc. It will be truthy.
 
 // compare to simpler ternary
+
 // let isOnline = true;
 // let userStatus = isOnline ? 'Online' : 'Offline';
 
 // console.log(userStatus); // Outputs: Online
 
+
 // The above ternary will assign a value to the variable 'userStatus' based on the value of the 'isOnline' variable
-// the ternary operator (shorthad for an if/else statement) evaulates the condition 'isOnline' - which will evaluate to either true or false
+// the ternary operator (shorthand for an if/else statement) evaluates the condition 'isOnline' - which will evaluate to either true or false
 
 
 

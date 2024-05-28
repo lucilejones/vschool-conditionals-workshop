@@ -1,20 +1,16 @@
-// We're writing a weather app that displays a message based on the current temperature. We'll have output for if there's no reading, if it's too hot, too cold, or if the weather is perfect. 
+// We're writing a weather app that displays a message based on the current temperature. We'll have output for if there's no temperatue reading, if it's too hot, too cold, or if the weather is perfect. 
 
 
 // start with just let temperature;
-// Here, the variable is declared but not defined, we don't give it an initial value. It exists, but its value is 'undefined' (we can see that if we console.log it).
+// Here, the variable is declared but not defined, we don't give it an initial value. It exists, but its value is 'undefined'
 
 // In our if/else block, first we'll check if temperature is defined.
 // (!temperature) checks if temperature is undefined or null
+// this is different from temperature === false
 
 // We'll first check for too hot, then too cold, then if none of the conditions are met, the console.log will read "The weather is perfect".
 
 // For example, we can assign temperature a value, like 52 or 75.
-
-
-// maybe add two conditions to check 
-// set temp to 70
-// temperature < 80 && temperatue > 70
 
 
 let temperature;
@@ -32,7 +28,6 @@ if(!temperature) {
 
 
 console.log(temperature)
-// write an 'if/else' statement that checks if a number is positive, negative, or zero
 
 
 

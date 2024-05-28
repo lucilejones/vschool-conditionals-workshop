@@ -1,6 +1,7 @@
 // switch statements handle multiple cases and execute different blocks of code based on the value of a variable/expression.
 // We're comparing a single expression against multiple values.
-// It will execute statements after the first case clause with a matching vlue until a break statement is encountered.
+// it uses strict equality comparison
+// It will execute statements after the first case clause with a matching value until a break statement is encountered.
 
 
 // Imagine we're developing a calendar app that needs to display the name of the day based on a number provided by the user (or other functionality within the app, like the built-in newDate().getDay() method.)
@@ -8,18 +9,12 @@
 // first, we'll declare a variable day, and let's give it an initial value of three
 // then we declare a variable 'dayName' to store the name of the day.
 
-// We set up our switch statement with the keyword switch, and then in the parenthese we put what we want to be evaluated, in this case the variable day.
+// We set up our switch statement with the keyword switch, and then in the parenthese we put what we want to be ecompared, in this case the variable day.
 // then we open our curly braces and start writing the code for each case.
 // Add the console.log for dayName underneath.
 // start with 0, then a colon, then we assign the dayName to Sunday.
 // Then include the break keyword to prevent fall-through (explain more about that). The code will exit the switch block after the match case is executed.
-
-// Copy paste the rest, then add a default.
-// The default is to hanlde any case that doesn't match.
-
-// change the day
-// show an example with a string
-// it uses strict equality comparison
+// The default is to handle any case that doesn't match.
 
 
 
@@ -195,3 +190,27 @@ console.log(getLetterGrade(50)); // Outputs: F
 
 //     return grade;
 // }
+
+
+// example of switch case with && and ||
+// function checkConditions(value1, value2) {
+//     switch (true) {
+//         case value1 === 'A' && value2 === 1:
+//             console.log('Condition 1 met: value1 is A and value2 is 1');
+//             break;
+//         case value1 === 'B' && value2 === 2:
+//             console.log('Condition 2 met: value1 is B and value2 is 2');
+//             break;
+//         case value1 === 'C' || value2 === 3:
+//             console.log('Condition 3 met: value1 is C or value2 is 3');
+//             break;
+//         default:
+//             console.log('No conditions met');
+//     }
+// }
+
+// // Example usage:
+// checkConditions('A', 1); // Output: Condition 1 met: value1 is A and value2 is 1
+// checkConditions('B', 2); // Output: Condition 2 met: value1 is B and value2 is 2
+// checkConditions('C', 3); // Output: Condition 3 met: value1 is C or value2 is 3
+// checkConditions('D', 4); // Output: No conditions met
