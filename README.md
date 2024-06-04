@@ -11,3 +11,6 @@ And we can update our if/else checks to add specific conditions.
 In the first ternary example, we can think of building a simple chat app where users can see each other's status as online or offline. We want to display the correct status based on whether the user is connected to the chat server or not.
 
 This is written first as an if/else statement, and then we can change it into a ternary statement. 
+
+# switch statement example
+The first example in the switch statment file is for a calendar app that needs to display the name of the day based on a number provided by the user (or other functionality within the app, like the built-in newDate().getDay() method.)
