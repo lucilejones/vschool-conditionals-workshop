@@ -10,4 +10,4 @@ And we can update our if/else checks to add specific conditions.
 # ternary example
 In the first ternary example, we can think of building a simple chat app where users can see each other's status as online or offline. We want to display the correct status based on whether the user is connected to the chat server or not.
 
-This is written first as an if/else statement, and then we convert it into a ternary statement. 
+This is written first as an if/else statement, and then we can change it into a ternary statement. 
